@@ -3,12 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sabi Lifestyle</title>
+    <title>Sabi Lifestyle - The Efficiency Engine</title>
+    <meta
+      name="description"
+      content="Optimize your life with Sabi Lifestyle. The ultimate efficiency engine for modern living, powered by AI."
+    />
+    <meta
+      name="keywords"
+      content="lifestyle, efficiency, AI, productivity, automation, Sabi"
+    />
+    <meta name="author" content="Sabi Lifestyle" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sabi-lifestyle.com/" />
+    <meta
+      property="og:title"
+      content="Sabi Lifestyle - The Efficiency Engine"
+    />
+    <meta
+      property="og:description"
+      content="Optimize your life with Sabi Lifestyle. The ultimate efficiency engine for modern living, powered by AI."
+    />
+    <meta
+      property="og:image"
+      content="https://sabi-lifestyle.com/og-image.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://sabi-lifestyle.com/" />
+    <meta
+      property="twitter:title"
+      content="Sabi Lifestyle - The Efficiency Engine"
+    />
+    <meta
+      property="twitter:description"
+      content="Optimize your life with Sabi Lifestyle. The ultimate efficiency engine for modern living, powered by AI."
+    />
+    <meta
+      property="twitter:image"
+      content="https://sabi-lifestyle.com/og-image.jpg"
+    />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&family=Share+Tech+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&family=Share+Tech+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -16,46 +60,47 @@
         theme: {
           extend: {
             colors: {
-              'clinical-white': '#FFFFFF',
-              'tech-blue': '#004D99',
-              'electric-cyan': '#00FFCC',
-              'tech-dark': '#001A33', // Darker variant for backgrounds
+              "clinical-white": "#FFFFFF",
+              "tech-blue": "#004D99",
+              "electric-cyan": "#00FFCC",
+              "tech-dark": "#001A33", // Darker variant for backgrounds
             },
             fontFamily: {
-              sans: ['Manrope', 'sans-serif'],
-              mono: ['Space Mono', 'monospace'],
-              digital: ['Share Tech Mono', 'monospace'],
+              sans: ["Manrope", "sans-serif"],
+              mono: ["Space Mono", "monospace"],
+              digital: ["Share Tech Mono", "monospace"],
             },
             backgroundImage: {
-              'grid-pattern': "linear-gradient(to right, rgba(0, 77, 153, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 77, 153, 0.05) 1px, transparent 1px)",
+              "grid-pattern":
+                "linear-gradient(to right, rgba(0, 77, 153, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 77, 153, 0.05) 1px, transparent 1px)",
             },
             animation: {
-              'flicker': 'flicker 0.2s infinite',
-              'orbit': 'orbit 20s linear infinite',
-              'draw': 'draw 2s ease-out forwards',
-              'scan': 'scan 2s linear infinite',
+              flicker: "flicker 0.2s infinite",
+              orbit: "orbit 20s linear infinite",
+              draw: "draw 2s ease-out forwards",
+              scan: "scan 2s linear infinite",
             },
             keyframes: {
               flicker: {
-                '0%, 100%': { opacity: '1', backgroundColor: '#FFFFFF' },
-                '50%': { opacity: '0.8', backgroundColor: '#00FFCC' },
+                "0%, 100%": { opacity: "1", backgroundColor: "#FFFFFF" },
+                "50%": { opacity: "0.8", backgroundColor: "#00FFCC" },
               },
               orbit: {
-                '0%': { transform: 'rotate(0deg)' },
-                '100%': { transform: 'rotate(360deg)' },
+                "0%": { transform: "rotate(0deg)" },
+                "100%": { transform: "rotate(360deg)" },
               },
               draw: {
-                '0%': { strokeDashoffset: '1000' },
-                '100%': { strokeDashoffset: '0' },
+                "0%": { strokeDashoffset: "1000" },
+                "100%": { strokeDashoffset: "0" },
               },
               scan: {
-                '0%': { transform: 'translateY(-100%)' },
-                '100%': { transform: 'translateY(100%)' },
-              }
-            }
-          }
-        }
-      }
+                "0%": { transform: "translateY(-100%)" },
+                "100%": { transform: "translateY(100%)" },
+              },
+            },
+          },
+        },
+      };
     </script>
     <script type="importmap">
       {
@@ -80,21 +125,23 @@
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #FFFFFF;
+        background: #ffffff;
       }
       ::-webkit-scrollbar-thumb {
-        background: #004D99;
+        background: #004d99;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #00FFCC;
+        background: #00ffcc;
       }
       .no-cursor {
         cursor: none;
       }
     </style>
-  <link rel="stylesheet" href="/index.css">
-</head>
-  <body class="bg-clinical-white text-tech-blue font-sans antialiased bg-grid-pattern bg-[length:40px_40px]">
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body
+    class="bg-clinical-white text-tech-blue font-sans antialiased bg-grid-pattern bg-[length:40px_40px]"
+  >
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
   </body>

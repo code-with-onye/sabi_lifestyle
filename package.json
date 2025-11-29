@@ -2,6 +2,15 @@
   "name": "sabi-lifestyle---the-efficiency-engine",
   "private": true,
   "version": "0.0.0",
+  "description": "The ultimate efficiency engine for modern living, powered by AI.",
+  "author": "Sabi Lifestyle",
+  "keywords": [
+    "lifestyle",
+    "efficiency",
+    "AI",
+    "productivity",
+    "automation"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
