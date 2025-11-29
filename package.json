@@ -23,7 +23,7 @@
   },
   "pnpm": {
     "overrides": {
-      "fetch-blob": "^4.0.0"
+      "node-domexception": "file:overrides/node-domexception"
     }
   }
 }
